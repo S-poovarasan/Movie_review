@@ -1,0 +1,63 @@
+body{
+  text-align: center;
+}
+form{
+  top: 130px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: center;
+  position: absolute;
+  left: 600px;
+  border: 3px solid gray;
+  border-radius: 3%;
+  background-color: rgb(169, 166, 166);
+}
+label{
+  position: relative;
+  left: 5px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+input,select,textarea{
+  height: 20px;
+  width: 250px;
+  margin: 10px;
+  border-radius: 3%;
+}
+button{
+  position: relative;
+  justify-content: center;
+  height: 23px;
+  width: 70px;
+  left: 117px;
+  margin: 7px;
+}
+button:hover{
+  background-color:rgb(73, 124, 219);
+}
+.link1{
+  position: absolute;
+  left: 620px;
+}
+.link2{
+  position: absolute;
+  right: 630px;
+}
+.review-list{
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  top: 70px;
+  left: 560px;
+  width: 400px;
+  background-color: bisque;
+}
+.review-card strong{
+  color: blue;
+}
+.review-card p{
+  color: rgb(253, 0, 0);
+}
